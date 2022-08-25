@@ -12,14 +12,14 @@ print("Exponent of a and b : ", a ** b)
 
 # or
 
-a = int(input("Enter first value: "))
-b = int(input("Enter second value: "))
-sum = a + b
+a = int(input("Enter first no.: "))
+b = int(input("Enter second no.: "))
+add = a + b
 diff = a - b
 mul = a * b
 div = a / b
 exp = a ** b
-print(" Sum is: ", sum)
+print(" Sum is: ", add)
 print(" Diff. is: ", diff)
 print(" Mul. is: ", mul)
 print(" Div. is: ", div)
