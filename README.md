@@ -1,6 +1,6 @@
 # PYTHON-LAB-MANUAL
 
-## Prerequisites:Python should be installed.
+## Prerequisites: Python should be installed.
 
 Import libraries :
 - Import time.
