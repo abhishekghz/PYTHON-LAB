@@ -1,9 +1,6 @@
 # PRACTICAL 03
-# Write a program to create, concatenate and print a string and accessing sub-string from a given string.
+# Write a python script to print the current date in the following format “Sun May 29 02:26:23 IST 2017” ?
 
-a = input("Enter first String : ")
-b = input("Enter second String : ")
-print("First string is : ", a)
-print("Second string is : ", b)
-print("concatenations of two strings :", a+b)
-print("Substring of given string :", a[1:6])
+import time
+curr_time = time.localtime()
+print(time.strftime("%a %b %d %H:%M:%S %Z %Y", curr_time))
