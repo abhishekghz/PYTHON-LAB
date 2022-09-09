@@ -19,7 +19,9 @@
 - Write a Python program to convert temperatures to and from Celsius, Fahrenheit.
   [ Formula: c/5 = f-32/9]
 - Write a Python program to construct the following pattern, using a nested for loop.
+
   '''
+
         *
         ** 
         *** 
@@ -27,6 +29,7 @@
         *** 
         **
         *
+
   '''
 - Write a Python script that prints prime numbers less than 20 ?
 
