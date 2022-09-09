@@ -2,7 +2,7 @@
 
 ## Prerequisites: Python should be installed.
 
-Import libraries :
+### Import libraries :
 - Import time.
 
 Total No. of Practicals = 20
