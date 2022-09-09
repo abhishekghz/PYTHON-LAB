@@ -3,9 +3,10 @@
 ## Prerequisites: Python should be installed.
 
 ### Import libraries :
+
 - Import time.
 
-Total No. of Practicals = 20
+### Total No. of Practicals = 20.
 
 - Write a program to demonstrate different number data types in Python.
 - Write a program to perform different Arithmetic Operations on numbers in Python ?
