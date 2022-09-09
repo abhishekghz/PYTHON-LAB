@@ -1,37 +1,24 @@
 # PRACTICAL 07
 # Write a program to demonstrate working with dictionaries in python.
 
-dict1 = {'StdNo': '532', 'StuName': 'Naveen', 'StuAge': 21, 'StuCity': 'Hyderabad'}
-print("\n Dictionary is :", dict1)
-# Accessing specific values
-print("\n Student Name is :", dict1['StuName'])
-print("\n Student City is :", dict1['StuCity'])
-# Display all Keys
+dictionary = {'StdNo': '2007477', 'Name': 'Abhishek', 'Age': 21, 'City': 'Bihar'}
+print("\n Dictionary is :", dictionary)
+print("\n Student Name is :", dictionary['Name'])
+print("\n City is :", dictionary['City'])
 print("\n All Keys in Dictionary ")
-for x in dict1:
+for x in dictionary:
     print(x)
-# Display all values
 print("\n All Values in Dictionary ")
-for x in dict1:
-    print(dict1[x])
-# Adding items
-dict1["Phno"] = 85457854
-# Updated dictoinary
-print("\n Updated Dictionary is :", dict1)
-# Change values
-dict1["StuName"] = "Madhu"
-# Updated dictoinary
-print("\n Updated Dictionary is :", dict1)
-# Removing Items
-dict1.pop("StuAge");
-# Updated dictoinary
-print("\n Updated Dictionary is :", dict1)
-# Length of Dictionary
-print("Length of Dictionary is :", len(dict1))
-# Copy a Dictionary
-dict2 = dict1.copy()
-# New dictoinary
-print("\n New Dictionary is :", dict2)
-# empties the dictionary
-dict1.clear()
-print("\n Updated Dictionary is :", dict1)
+for x in dictionary:
+    print(dictionary[x])
+dictionary["contact"] = 6202123608
+print("\n Updated Dictionary is :", dictionary)
+dictionary["Name"] = "Sunny"
+print("\n Updated Dictionary is :", dictionary)
+dictionary.pop("Age")
+print("\n Updated Dictionary is :", dictionary)
+print("Length of Dictionary is :", len(dictionary))
+dictionary2 = dictionary.copy()
+print("\n New Dictionary is :", dictionary2)
+dictionary.clear()
+print("\n Updated Dictionary is :", dictionary)

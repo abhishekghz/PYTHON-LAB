@@ -4,16 +4,16 @@
 
 print("1.) Convert Celsius to Fahrenheit \n")
 print("2.) Convert Fahrenheit to Celsius \n")
-opt=int(input("Choose any Option (1 or 2) : "))
-if opt == 1:
+option = int(input("Choose any Option (1 or 2) : "))
+if option == 1:
     print("Convert Celsius to Fahrenheit \n")
-    cel = float(input("Enter Temperature in Celsius: "))
-    fahr = (cel*9/5)+32
-    print("Temperature in Fahrenheit =",fahr)
-elif opt == 2:
+    Celsius = float(input("Enter Temperature in Celsius: "))
+    Fahrenheit = (Celsius*9/5)+32
+    print("Temperature in Fahrenheit = ", Fahrenheit)
+elif option == 2:
     print("Convert temperatures from Fahrenheit to Celsius \n")
-    fahr = float(input("Enter Temperature in Fahrenheit: "))
-    cel=(fahr-32)*5/9
-    print("Temperature in Celsius =",cel)
+    Fahrenheit = float(input("Enter Temperature in Fahrenheit: "))
+    Celsius = (Fahrenheit - 32) * 5/9
+    print("Temperature in Celsius = ", Celsius)
 else:
-    print("Invalid Option")
+    print("Invalid Option.")

@@ -1,11 +1,11 @@
 # PRACTICAL 05
 # Write a program to create, append, and remove lists in python
 
-pets = ['cat', 'dog', 'rat', 'pig', 'tiger']
-snakes=['python','anaconda','fish','cobra','mamba']
-print("Pets are :",pets)
-print("Snakes are :",snakes)
-animals=pets+snakes
-print("Animals are :",animals)
-snakes.remove("fish")
-print("updated Snakes are :",snakes) 
+language = ['Python', 'Kotlin', 'Swift', 'ML', 'AI']
+developer = ['Abhishek', 'Sunny', 'Vrijraj', 'Saksham', 'Anubhav']
+print("Programming Languages are :", language)
+print("Developers are :", developer)
+Tech = language + developer
+print("Animals are :", Tech)
+developer.remove("Vrijraj")
+print("updated developers are :", developer)

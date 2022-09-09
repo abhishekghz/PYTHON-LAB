@@ -10,10 +10,10 @@
         *
 '''
 
-n=4
+n = 4
 for i in range(n):
     for j in range(i):
-        print ('* ', end="")
+        print('* ', end="")
     print('')
 
 for i in range(n,0,-1):

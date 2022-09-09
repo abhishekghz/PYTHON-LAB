@@ -17,7 +17,7 @@ print(x)
 print(type(x))
 y = 20.5
 print(x)
-print(type(x))
+print(type(y))
 z = 15j
 print(x)
-print(type(x))
+print(type(z))
