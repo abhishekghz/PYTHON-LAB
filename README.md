@@ -32,4 +32,5 @@
 
   '''
 - Write a Python script that prints prime numbers less than 20 ?
+- 
 

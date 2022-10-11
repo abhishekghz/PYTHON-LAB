@@ -22,3 +22,4 @@ dictionary2 = dictionary.copy()
 print("\n New Dictionary is :", dictionary2)
 dictionary.clear()
 print("\n Updated Dictionary is :", dictionary)
+

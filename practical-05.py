@@ -6,6 +6,6 @@ developer = ['Abhishek', 'Sunny', 'Vrijraj', 'Saksham', 'Anubhav']
 print("Programming Languages are :", language)
 print("Developers are :", developer)
 Tech = language + developer
-print("Animals are :", Tech)
-developer.remove("Vrijraj")
+print("Tech Members are :", Tech)
+developer.remove(" Vrijraj ")
 print("updated developers are :", developer)
